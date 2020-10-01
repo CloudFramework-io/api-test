@@ -1,0 +1,15 @@
+# Google App Engine generated folder
+appengine-generated/
+.project
+.DS_Store
+.git/*
+.idea/*
+**/.idea/*
+tmp/*
+**/local_config.json
+**/tmp/*
+**/composer.lock
+**/vendor/*
+**/local_data
+**/local_env_vars.json
+**/local_config.json
