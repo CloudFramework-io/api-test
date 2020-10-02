@@ -11,11 +11,6 @@ cd cloudframework-api-test
 
 ### Brew
 If you do not have Brew installed then install it.
-
- * http://brew.sh/
- * Homebrew installs the stuff you need that Apple didn’t.
-
-*Install*brew
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -34,6 +29,7 @@ composer --version   (latest with this doc: 1.10.8)
 ```
 # First time
 composer install
+
 # next times
 composer update
 ```

@@ -1,0 +1,3 @@
+{
+  "core.cache.cache_path": "{{rootPath}}/local_data/cache"
+}
