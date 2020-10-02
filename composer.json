@@ -1,5 +1,5 @@
 {
     "require": {
-        "cloudframework-io/appengine-php-core-7.3": "^v73.10021"
+        "cloudframework-io/appengine-php-core-7.3": "^v73.10022"
     }
 }
