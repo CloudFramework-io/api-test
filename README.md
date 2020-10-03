@@ -36,17 +36,17 @@ composer update
 
 ### Create the following alias
 ```
-alias cftest="php vendor/cloudframework-io/appengine-php-core-7.3/runscript.php"
+alias cftest="php vendor/cloudframework-io/appengine-php-core-7.3/runtest.php"
 ```
 
 ### Execute
 Now using the alias to start execute
 
 ```
-cftest _test/erp/{your-org}
+cftest erp/{your-org}
 ```
 
 To clean-up local data cache
 ```
-cftest _test/clean
+cftest clean
 ```

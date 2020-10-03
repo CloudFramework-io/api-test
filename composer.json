@@ -1,5 +1,11 @@
 {
     "require": {
-        "cloudframework-io/appengine-php-core-7.3": "^v73.10022"
+        "cloudframework-io/appengine-php-core-7.3": "^v73.10031"
+    },
+    "scripts": {
+        "test": "@php vendor/cloudframework-io/appengine-php-core-7.3/runscript.php"
+    },
+    "config": {
+        "process-timeout": 0
     }
 }
