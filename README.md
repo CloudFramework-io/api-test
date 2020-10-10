@@ -1,13 +1,9 @@
-# api-test
+# CloudFrameworkTests API-TEST
 
 It allows to run CloudFrameworkTests previously defined in your corporate ERP
+* [Designing-API-Tests-from-CloudFramework](https://www.notion.so/cloudframework/Designing-API-Tests-from-CloudFramework-afc8d166610f4b8e98742b98c504053f)
 
-```
-git clone https://github.com/CloudFramework-io/cloudframework-api-test.git
-cd cloudframework-api-test 
-```
-
-## Pre-requistes
+## Pre-requistes for MAC
 
 ### Brew
 If you do not have Brew installed then install it.
@@ -22,6 +18,16 @@ If you do not have php and or composer
 brew install php@7.3 composer
 composer --version   (latest with this doc: 1.10.8)
 ```
+
+
+## INSTALLING
+
+```
+git clone https://github.com/CloudFramework-io/cloudframework-api-test.git
+cd cloudframework-api-test 
+```
+
+
 
 ## Run tests
 
@@ -49,4 +55,9 @@ cftest erp/{your-org}
 To clean-up local data cache
 ```
 cftest clean
+```
+
+To download the last version of CloudFrameworkTests
+```
+cftest update
 ```
