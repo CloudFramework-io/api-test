@@ -1,3 +1,4 @@
 {
-  "core.cache.cache_path": "{{rootPath}}/local_data/cache"
+  "core.cache.cache_path": "{{rootPath}}/local_data/cache",
+  "core.test.version": "2.1.7"
 }
